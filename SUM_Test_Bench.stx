@@ -1,0 +1,52 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/sd/Trabalho_1_2024/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/sd/Trabalho_1_2024/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/Trabalho_1_2024/Half_Adder.vhd" in Library work.
+Architecture half_adder_behav of Entity half_adder is up to date.
+Compiling vhdl file "/home/sd/Trabalho_1_2024/Full_Adder.vhd" in Library work.
+Entity <full_adder> compiled.
+Entity <Full_Adder> (Architecture <fulladder_behav>) compiled.
+Compiling vhdl file "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" in Library work.
+Entity <SUM_2_Vectors_4_Bits> compiled.
+ERROR:HDLParsers:3312 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 52. Undefined symbol 'COUT_FA0'.
+ERROR:HDLParsers:1209 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 52. COUT_FA0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 53. Undefined symbol 'COUT_FA1'.
+ERROR:HDLParsers:1209 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 53. COUT_FA1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1411 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 53. Parameter SUM_RESULT of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:3312 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 54. Undefined symbol 'COUT_FA2'.
+ERROR:HDLParsers:1209 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 54. COUT_FA2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1411 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 54. Parameter SUM_RESULT of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" Line 55. Parameter SUM_RESULT of mode out can not be associated with a formal port of mode in.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+
+
+Total memory usage is 565756 kilobytes
+
+Number of errors   :    9 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

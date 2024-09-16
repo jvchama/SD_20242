@@ -1,0 +1,41 @@
+vhdtdtfi -prj Trabalho_1_2024 -o /home/sd/Downloads/Trabalho/maquinaDeEstados.vhi -module maquinaDeEstados -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work AND_2_Vectors_4_Bits.vhd -lib work maquinaDeEstados.vhd 
+vhdtdtfi -lib work AND_2_Vectors_4_Bits.vhd -lib work maquinaDeEstados.vhd -prj Trabalho_1_2024 -o maquinaDeEstados.spl -module maquinaDeEstados -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a maquinaDeEstados.spl /home/sd/Downloads/Trabalho/maquinaDeEstados.sym 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+netgen -intstyle ise -ar Structure -tm maquinaDeEstados -w -dir netgen/synthesis -ofmt vhdl -sim maquinaDeEstados.ngc maquinaDeEstados_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 maquinaDeEstados.ngc maquinaDeEstados.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o maquinaDeEstados_map.ncd maquinaDeEstados.ngd maquinaDeEstados.pcf 
+par -w -intstyle ise -ol high -t 1 maquinaDeEstados_map.ncd maquinaDeEstados.ncd maquinaDeEstados.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maquinaDeEstados.twx maquinaDeEstados.ncd -o maquinaDeEstados.twr maquinaDeEstados.pcf -ucf pinagem.ucf 
+bitgen -intstyle ise -f maquinaDeEstados.ut maquinaDeEstados.ncd 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+netgen -intstyle ise -ar Structure -tm maquinaDeEstados -w -dir netgen/synthesis -ofmt vhdl -sim maquinaDeEstados.ngc maquinaDeEstados_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 maquinaDeEstados.ngc maquinaDeEstados.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o maquinaDeEstados_map.ncd maquinaDeEstados.ngd maquinaDeEstados.pcf 
+par -w -intstyle ise -ol high -t 1 maquinaDeEstados_map.ncd maquinaDeEstados.ncd maquinaDeEstados.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maquinaDeEstados.twx maquinaDeEstados.ncd -o maquinaDeEstados.twr maquinaDeEstados.pcf -ucf pinagem.ucf 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+netgen -intstyle ise -ar Structure -tm maquinaDeEstados -w -dir netgen/synthesis -ofmt vhdl -sim maquinaDeEstados.ngc maquinaDeEstados_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 maquinaDeEstados.ngc maquinaDeEstados.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o maquinaDeEstados_map.ncd maquinaDeEstados.ngd maquinaDeEstados.pcf 
+par -w -intstyle ise -ol high -t 1 maquinaDeEstados_map.ncd maquinaDeEstados.ncd maquinaDeEstados.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maquinaDeEstados.twx maquinaDeEstados.ncd -o maquinaDeEstados.twr maquinaDeEstados.pcf -ucf pinagem.ucf 
+bitgen -intstyle ise -f maquinaDeEstados.ut maquinaDeEstados.ncd 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+netgen -intstyle ise -ar Structure -tm maquinaDeEstados -w -dir netgen/synthesis -ofmt vhdl -sim maquinaDeEstados.ngc maquinaDeEstados_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 maquinaDeEstados.ngc maquinaDeEstados.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o maquinaDeEstados_map.ncd maquinaDeEstados.ngd maquinaDeEstados.pcf 
+par -w -intstyle ise -ol high -t 1 maquinaDeEstados_map.ncd maquinaDeEstados.ncd maquinaDeEstados.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maquinaDeEstados.twx maquinaDeEstados.ncd -o maquinaDeEstados.twr maquinaDeEstados.pcf -ucf pinagem.ucf 
+bitgen -intstyle ise -f maquinaDeEstados.ut maquinaDeEstados.ncd 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+xst -intstyle ise -ifn "/home/sd/Downloads/Trabalho/maquinaDeEstados.xst" -ofn "/home/sd/Downloads/Trabalho/maquinaDeEstados.syr" 
+netgen -intstyle ise -ar Structure -tm maquinaDeEstados -w -dir netgen/synthesis -ofmt vhdl -sim maquinaDeEstados.ngc maquinaDeEstados_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 maquinaDeEstados.ngc maquinaDeEstados.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o maquinaDeEstados_map.ncd maquinaDeEstados.ngd maquinaDeEstados.pcf 
+par -w -intstyle ise -ol high -t 1 maquinaDeEstados_map.ncd maquinaDeEstados.ncd maquinaDeEstados.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maquinaDeEstados.twx maquinaDeEstados.ncd -o maquinaDeEstados.twr maquinaDeEstados.pcf -ucf pinagem.ucf 
+bitgen -intstyle ise -f maquinaDeEstados.ut maquinaDeEstados.ncd 

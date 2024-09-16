@@ -1,0 +1,4 @@
+vhdl isim_temp "Half_Adder.vhd"
+vhdl isim_temp "Full_Adder.vhd"
+vhdl isim_temp "SUM_2_Vectors_4_Bits.vhd"
+vhdl isim_temp "Test_Sum.vhd"

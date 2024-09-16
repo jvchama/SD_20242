@@ -1,0 +1,5 @@
+set -tmpdir "/home/sd/Trabalho_1_2024/xst/projnav.tmp"
+set -xsthdpdir "/home/sd/Trabalho_1_2024/xst"
+elaborate
+-ifn SUM_Test_Bench.prj
+-ifmt mixed

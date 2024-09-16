@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+netgen -intstyle ise -ar Structure -tm Test_Sum -w -dir netgen/synthesis -ofmt vhdl -sim Test_Sum.ngc Test_Sum_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+netgen -intstyle ise -ar Structure -tm Test_Sum -w -dir netgen/synthesis -ofmt vhdl -sim Test_Sum.ngc Test_Sum_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_Sum.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_Sum.ucf -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/Test_Sum.xst" -ofn "/home/sd/Trabalho_1_2024/Test_Sum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Test_Sum.ngc Test_Sum.ngd  
+netgen -intstyle ise -ar Structure -tm Test_Sum -w -dir netgen/synthesis -ofmt vhdl -sim Test_Sum.ngc Test_Sum_synthesis.vhd 

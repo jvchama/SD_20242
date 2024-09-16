@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/sd/Downloads/Trabalho/maquinaDeEstados.ncd
+OUTFILE=/home/sd/Downloads/Trabalho/maquinaDeEstados.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-4fgg484
+WORKINGDIR=/home/sd/Downloads/Trabalho
+LICENSE=WebPack
+USER_INFO=211545305_0_0_116

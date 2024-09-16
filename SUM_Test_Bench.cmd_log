@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/SUM_Test_Bench.xst" -ofn "/home/sd/Trabalho_1_2024/SUM_Test_Bench.syr" 
+xst -intstyle ise -ifn "/home/sd/Trabalho_1_2024/SUM_Test_Bench.xst" -ofn "/home/sd/Trabalho_1_2024/SUM_Test_Bench.syr" 

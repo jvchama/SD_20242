@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+ButtonN
+ButtonE
+ButtonS
+rst
+=Vetores[3:0]=
+[Outputs]
+=Outesquerda[3:0]=
+=OutDireita[3:0]=
+[BiDir]

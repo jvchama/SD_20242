@@ -1,0 +1,313 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Test_Sum.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Test_Sum.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Test_Sum"
+Output Format                      : NGC
+Target Device                      : xc3s700an-4-fgg484
+
+---- Source Options
+Top Module Name                    : Test_Sum
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/Trabalho_1_2024/Half_Adder.vhd" in Library work.
+Architecture half_adder_behav of Entity half_adder is up to date.
+Compiling vhdl file "/home/sd/Trabalho_1_2024/Full_Adder.vhd" in Library work.
+Architecture fulladder_behav of Entity full_adder is up to date.
+Compiling vhdl file "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd" in Library work.
+Architecture fouradder_structure of Entity sum_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/sd/Trabalho_1_2024/Test_Sum.vhd" in Library work.
+Entity <test_sum> compiled.
+Entity <test_sum> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Test_Sum> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SUM_2_Vectors_4_Bits> in library <work> (architecture <fouradder_structure>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <Half_Adder> in library <work> (architecture <half_adder_behav>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Test_Sum> in library <work> (Architecture <behavioral>).
+Entity <Test_Sum> analyzed. Unit <Test_Sum> generated.
+
+Analyzing Entity <SUM_2_Vectors_4_Bits> in library <work> (Architecture <fouradder_structure>).
+Entity <SUM_2_Vectors_4_Bits> analyzed. Unit <SUM_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <Full_Adder> in library <work> (Architecture <fulladder_behav>).
+Entity <Full_Adder> analyzed. Unit <Full_Adder> generated.
+
+Analyzing Entity <Half_Adder> in library <work> (Architecture <half_adder_behav>).
+Entity <Half_Adder> analyzed. Unit <Half_Adder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is "/home/sd/Trabalho_1_2024/Half_Adder.vhd".
+    Found 1-bit xor2 for signal <HALF_SUM>.
+Unit <Half_Adder> synthesized.
+
+
+Synthesizing Unit <Full_Adder>.
+    Related source file is "/home/sd/Trabalho_1_2024/Full_Adder.vhd".
+Unit <Full_Adder> synthesized.
+
+
+Synthesizing Unit <SUM_2_Vectors_4_Bits>.
+    Related source file is "/home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd".
+WARNING:Xst:647 - Input <Cin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit xor2 for signal <V>.
+Unit <SUM_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <Test_Sum>.
+    Related source file is "/home/sd/Trabalho_1_2024/Test_Sum.vhd".
+WARNING:Xst:653 - Signal <b> is used but never assigned. This sourceless signal will be automatically connected to value 1111.
+WARNING:Xst:653 - Signal <a> is used but never assigned. This sourceless signal will be automatically connected to value 1111.
+WARNING:Xst:646 - Signal <V> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SUM_RESULT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <Cin> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Test_Sum> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 9
+ 1-bit xor2                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <test> is unconnected in block <Test_Sum>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 9
+ 1-bit xor2                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Test_Sum> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Test_Sum, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Test_Sum.ngr
+Top Level Output File Name         : Test_Sum
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 0
+
+Cell Usage :
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700anfgg484-4 
+
+ Number of Slices:                        0  out of   5888     0%  
+ Number of IOs:                           0
+ Number of bonded IOBs:                   0  out of    372     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.84 secs
+ 
+--> 
+
+
+Total memory usage is 607464 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
