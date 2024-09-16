@@ -1,0 +1,12 @@
+AR maquinadeestados behavioral /home/sd/Downloads/Trabalho/maquinaDeEstados.vhd sub00/vhpl11 1725990469
+AR full_adder fulladder_behav /home/sd/Downloads/Trabalho/Full_Adder.vhd sub00/vhpl03 1725990463
+AR and_2_vectors_4_bits behavioral /home/sd/Downloads/Trabalho/AND_2_Vectors_4_Bits.vhd sub00/vhpl09 1725990465
+AR sum_2_vectors_4_bits fouradder_structure /home/sd/Downloads/Trabalho/SUM_2_Vectors_4_Bits.vhd sub00/vhpl05 1725990467
+EN and_2_vectors_4_bits NULL /home/sd/Downloads/Trabalho/AND_2_Vectors_4_Bits.vhd sub00/vhpl08 1725990464
+EN sum_2_vectors_4_bits NULL /home/sd/Downloads/Trabalho/SUM_2_Vectors_4_Bits.vhd sub00/vhpl04 1725990466
+EN maquinadeestados NULL /home/sd/Downloads/Trabalho/maquinaDeEstados.vhd sub00/vhpl10 1725990468
+EN half_adder NULL /home/sd/Downloads/Trabalho/Half_Adder.vhd sub00/vhpl00 1725990460
+AR test_sum behavioral /home/sd/Trabalho_1_2024/Test_Sum.vhd sub00/vhpl07 1725385988
+AR half_adder half_adder_behav /home/sd/Downloads/Trabalho/Half_Adder.vhd sub00/vhpl01 1725990461
+EN test_sum NULL /home/sd/Trabalho_1_2024/Test_Sum.vhd sub00/vhpl06 1725385987
+EN full_adder NULL /home/sd/Downloads/Trabalho/Full_Adder.vhd sub00/vhpl02 1725990462

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/sd/Trabalho_1_2024/Test_Half_Adder_isim_beh.exe" -prj "/home/sd/Trabalho_1_2024/Test_Half_Adder_beh.prj" "work.Test_Half_Adder" 

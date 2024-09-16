@@ -1,0 +1,48 @@
+V3 28
+FL /home/sd/Downloads/Trabalho/AND_2_Vectors_4_Bits.vhd 2024/09/10.13:55:50 P.20131013
+EN work/AND_2_Vectors_4_Bits 1725990464 \
+      FL /home/sd/Downloads/Trabalho/AND_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND_2_Vectors_4_Bits/Behavioral 1725990465 \
+      FL /home/sd/Downloads/Trabalho/AND_2_Vectors_4_Bits.vhd \
+      EN work/AND_2_Vectors_4_Bits 1725990464
+FL /home/sd/Downloads/Trabalho/Full_Adder.vhd 2024/09/03.15:08:24 P.20131013
+EN work/Full_Adder 1725990462 FL /home/sd/Downloads/Trabalho/Full_Adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/fulladder_behav 1725990463 \
+      FL /home/sd/Downloads/Trabalho/Full_Adder.vhd EN work/Full_Adder 1725990462 \
+      CP Half_Adder
+FL /home/sd/Downloads/Trabalho/Half_Adder.vhd 2024/09/03.15:08:24 P.20131013
+EN work/Half_Adder 1725990460 FL /home/sd/Downloads/Trabalho/Half_Adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Half_Adder/Half_Adder_Behav 1725990461 \
+      FL /home/sd/Downloads/Trabalho/Half_Adder.vhd EN work/Half_Adder 1725990460
+FL /home/sd/Downloads/Trabalho/maquinaDeEstados.vhd 2024/09/10.14:47:35 P.20131013
+EN work/maquinaDeEstados 1725990468 \
+      FL /home/sd/Downloads/Trabalho/maquinaDeEstados.vhd PB ieee/std_logic_1164 1381692176
+AR work/maquinaDeEstados/Behavioral 1725990469 \
+      FL /home/sd/Downloads/Trabalho/maquinaDeEstados.vhd \
+      EN work/maquinaDeEstados 1725990468 CP AND_2_Vectors_4_Bits \
+      CP SUM_2_Vectors_4_Bits
+FL /home/sd/Downloads/Trabalho/SUM_2_Vectors_4_Bits.vhd 2024/09/03.15:08:24 P.20131013
+EN work/SUM_2_Vectors_4_Bits 1725990466 \
+      FL /home/sd/Downloads/Trabalho/SUM_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SUM_2_Vectors_4_Bits/fouradder_structure 1725990467 \
+      FL /home/sd/Downloads/Trabalho/SUM_2_Vectors_4_Bits.vhd \
+      EN work/SUM_2_Vectors_4_Bits 1725990466 CP Full_Adder
+FL /home/sd/Trabalho_1_2024/Full_Adder.vhd 2024/08/27.15:04:46 P.20131013
+FL /home/sd/Trabalho_1_2024/Half_Adder.vhd 2024/08/27.14:15:06 P.20131013
+FL /home/sd/Trabalho_1_2024/SUM_2_Vectors_4_Bits.vhd 2024/09/03.14:42:25 P.20131013
+FL /home/sd/Trabalho_1_2024/SUM_Test_Bench.vhd 2023/06/15.22:04:34 P.20131013
+EN work/SUM_Test_Bench 0 FL /home/sd/Trabalho_1_2024/SUM_Test_Bench.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SUM_Test_Bench/behavior 0 \
+      FL /home/sd/Trabalho_1_2024/SUM_Test_Bench.vhd EN work/SUM_Test_Bench 0 \
+      CP SUM_2_Vectors_4_Bits
+FL /home/sd/Trabalho_1_2024/Test_Sum.vhd 2024/09/03.14:48:11 P.20131013
+EN work/Test_Sum 1725385987 FL /home/sd/Trabalho_1_2024/Test_Sum.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Test_Sum/Behavioral 1725385988 \
+      FL /home/sd/Trabalho_1_2024/Test_Sum.vhd EN work/Test_Sum 1725385987 \
+      CP SUM_2_Vectors_4_Bits
